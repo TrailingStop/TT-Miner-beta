@@ -10,9 +10,9 @@
 ## Mining fees
 | Mining | fee |
 | - | - |
-| Epic Cash | 2.0% |
-| Solo to Qt-Wallet | 2.0% |
-| all other | 1.0% |
+| Epic Cash | 2.0 % |
+| Solo to Qt-Wallet | 2.0 % |
+| all other | 1.0 % |
 
 
 
@@ -95,7 +95,8 @@ TT-Miner supports the -pool[-o], -user[-u], -pass[-p] notation as well as the mo
 | - | - |
 | \<WALLET\> | Your wallet-id |
 | \<WORKER\> | Your worker-id |
-| \<PASSWORD\> | Your password if reqired |
+| \<USERNAME\> | Your username if reqired (check EPIC mining & solo mining to Qt-Wallet) |
+| \<PASSWORD\> | Your password if reqired (check EPIC mining & solo mining to Qt-Wallet) |
 
 
 
@@ -108,4 +109,37 @@ TT-Miner supports the -pool[-o], -user[-u], -pass[-p] notation as well as the mo
 | TCP port, -o,-u format | TT-Miner -coin ETC -u \<WALLET\>.\<WORKER\> -o etc.2miners.com:1010 |
 | SSL port, -P format | TT-Miner -coin ETC -P stratum+ssl://\<WALLET\>.\<WORKER\>@etc.2miners.com:11010 |
 | SSL port, -o,-u format | TT-Miner -coin ETC -u \<WALLET\>.\<WORKER\> -o stratum+ssl://etc.2miners.com:11010 |
+
+
+
+
+
+
+## Mining Solo to a Qt-Wallet
+To use your Qt-Wallet for solo mining you need to create/configure a config file. The config file is a textfile that must contain following information:
+You need \<USERNAME\> and \<PASSWORD\> in th commandline of TT-Miner to get access to the Qt-Wallet.
+Please change rpcallowip to match your network configuration. It defines IPs that may connect to the wallet.<br/>
+
+rem -- FILE START -- do not add this line to your config file!<br/>
+automintoff=1<br/>
+rpcuser=\<USERNAME\><br/>
+rpcpassword=\<PASSWORD\><br/>
+rpcbind=0.0.0.0<br/>
+rpcallowip=192.168.41.0/24<br/>
+server=1<br/>
+listen=1<br/>
+gen=1<br/>
+miningaddress=\<WALLET\><br/>
+rem -- FILE END -- do not add this line to your config file!<br/>
+
+
+Then start your Qt-Wallet with the option to use this new configuration file:<br/>
+##### neoxa-qt -conf=filename.conf<br/>
+
+
+### Mine NEOX Solo to Qt-Wallet
+Plase use the USERNAME and PASSWORD information from your config file that you use to start your wallet.<br/>
+##### TT-Miner -coin neox -P http://\<USERNAME\>:\<PASSWORD\>@\<IP-TO-YOUR-QT-WALLET\>:9766
+
+
 
