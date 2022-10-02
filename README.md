@@ -44,6 +44,7 @@
 | KAW | Kawkaw | KawPow |
 | PRCO | Procyon | KawPow |
 | SATO | Sato | KawPow |
+| ARL | Arielcoin | KawPow |
 | HVQ | Hivecoin | KawPow |
 | TTM | Titanium | KawPow |
 | MEOW | MeowCoin | KawPow |
@@ -75,3 +76,11 @@
 | -a [ --algo ] arg | Defines the algorithm to use for thwe primary coin.<br/>Supported algos (values for 'arg'):<br/>ETHASH<br/>ETCHASH<br/>UBQHASH<br/>ProgPow<br/>ProgPowZ<br/>vProgPow<br/>FiroPow<br/>KawPow |
 | -aalt [ --algoalt ] arg | Defines the algorithm to use for the alternte coin (primary coin must be 'EPIC'). |
 
+
+
+
+#### Coin options
+| Option | Information |
+| - | - |
+| -coin arg | Defines the primary coin to mine.<br/>Supported coins (values for 'arg'):<br/>ETC<br/>CLO<br/>EXP<br/>ETP<br/>UBQ<br/>SERO<br/>EPIC<br/>ZANO<br/>EVOX<br/>VBK<br/>VEIL<br/>FIRO<br/>RVN<br/>NEOX<br/>ARL<br/>KAW<br/>PRCO<br/>SATO<br/>HVQ<br/>TTM<br/>MEOW<br/>REDE |
+| -coinalt arg | Defines the alternate coin to mine (primary coin must be 'EPIC'). |
