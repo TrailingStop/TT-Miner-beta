@@ -84,3 +84,28 @@
 | - | - |
 | -coin arg | Defines the primary coin to mine.<br/>Supported coins (values for 'arg'):<br/>ETC<br/>CLO<br/>EXP<br/>ETP<br/>UBQ<br/>SERO<br/>EPIC<br/>ZANO<br/>EVOX<br/>VBK<br/>VEIL<br/>FIRO<br/>RVN<br/>NEOX<br/>ARL<br/>KAW<br/>PRCO<br/>SATO<br/>HVQ<br/>TTM<br/>MEOW<br/>REDE |
 | -coinalt arg | Defines the alternate coin to mine (primary coin must be 'EPIC'). |
+
+
+
+
+### Commandline samples
+TT-Miner supports the -pool[-o], -user[-u], -pass[-p] notation as well as the more compact -P form. Please replace placeholder with your information:
+
+| Placeholder | meaning |
+| - | - |
+| \<WALLET\> | Your wallet-id |
+| \<WORKER\> | Your worker-id |
+| \<PASSWORD\> | Your password if reqired |
+
+
+
+
+### Mine ETC on 2miners (TCP-port) (-o,-u format)
+
+| verion | commandline |
+| - | - |
+| TCP port, -P format | TT-Miner -coin ETC -P \<WALLET\>.\<WORKER\>@etc.2miners.com:1010 |
+| TCP port, -o,-u format | TT-Miner -coin ETC -u \<WALLET\>.\<WORKER\> -o etc.2miners.com:1010 |
+| SSL port, -P format | TT-Miner -coin ETC -P stratum+ssl://\<WALLET\>.\<WORKER\>@etc.2miners.com:11010 |
+| SSL port, -o,-u format | TT-Miner -coin ETC -u \<WALLET\>.\<WORKER\> -o stratum+ssl://etc.2miners.com:11010 |
+
