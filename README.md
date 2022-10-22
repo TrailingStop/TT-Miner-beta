@@ -1,3 +1,10 @@
+# TT-Miner 2022.3 - beta14
+
+- Cuda 11.8 support
+- Fixed hashrate-reporting to the ZANO solo mining stratum
+
+
+
 # TT-Miner 2022.3 - beta13
 
 
@@ -11,6 +18,7 @@
 | Mining | fee |
 | - | - |
 | Epic Cash | 2.0 % |
+| Ghostrider/Mike algo| 2.5 % |
 | Solo to Qt-Wallet | 2.0 % |
 | all other | 1.0 % |
 
@@ -55,6 +63,16 @@
 | EVOX | Evoultion | ProgPowZ |
 | VBK | VeriBlock | vProgPow |
 | VEIL | Veil | ProgPow(Veil) |
+| RTM | Raptoreum | GhostRider |
+| BTRM | Bitoreum | GhostRider |
+| BUT | Butcoin | GhostRider |
+| YERB | Yerbas | GhostRider |
+| JGC | Jagoan | GhostRider |
+| FITA | Theta | GhostRider |
+| BBC | Babacoin | GhostRider |
+| NAPI | Atanapicoin | GhostRider |
+| THOON | Thooneum | GhostRider |
+| VKAX | Vkax | Mike |
 
 
 
@@ -73,7 +91,7 @@
 #### Algo options
 | Option | Information |
 | - | - |
-| -a [ --algo ] arg | Defines the algorithm to use for thwe primary coin.<br/>Supported algos (values for 'arg'):<br/>ETHASH<br/>ETCHASH<br/>UBQHASH<br/>ProgPow<br/>ProgPowZ<br/>vProgPow<br/>FiroPow<br/>KawPow |
+| -a [ --algo ] arg | Defines the algorithm to use for the primary coin.<br/>Supported algos (values for 'arg'):<br/>ETHASH<br/>ETCHASH<br/>UBQHASH<br/>ProgPow<br/>ProgPowZ<br/>vProgPow<br/>FiroPow<br/>KawPow<br/>GhostRider<br/>Mike |
 | -aalt [ --algoalt ] arg | Defines the algorithm to use for the alternte coin (primary coin must be 'EPIC'). |
 
 
@@ -82,7 +100,7 @@
 #### Coin options
 | Option | Information |
 | - | - |
-| -coin arg | Defines the primary coin to mine.<br/>Supported coins (values for 'arg'):<br/>ETC<br/>CLO<br/>EXP<br/>ETP<br/>UBQ<br/>SERO<br/>EPIC<br/>ZANO<br/>EVOX<br/>VBK<br/>VEIL<br/>FIRO<br/>RVN<br/>NEOX<br/>ARL<br/>KAW<br/>PRCO<br/>SATO<br/>HVQ<br/>TTM<br/>MEOW<br/>REDE |
+| -coin arg | Defines the primary coin to mine.<br/>Supported coins (values for 'arg'):<br/>ETC<br/>CLO<br/>EXP<br/>ETP<br/>UBQ<br/>SERO<br/>EPIC<br/>ZANO<br/>EVOX<br/>VBK<br/>VEIL<br/>FIRO<br/>RVN<br/>NEOX<br/>ARL<br/>KAW<br/>PRCO<br/>SATO<br/>HVQ<br/>TTM<br/>MEOW<br/>REDE<br/>RTM<br/>BTRM<br/>BUT<br/>YERB<br/>JGC<br/>FITA<br/>BBC<br/>NAPI<br/>THOON<br/>VKAX |
 | -coinalt arg | Defines the alternate coin to mine (primary coin must be 'EPIC'). |
 
 
@@ -140,6 +158,7 @@ Then start your Qt-Wallet with the option to use this new configuration file:<br
 ### Mine NEOX Solo to Qt-Wallet
 Plase use the USERNAME and PASSWORD information from your config file that you use to start your wallet.<br/>
 ##### TT-Miner -coin neox -P http://\<USERNAME\>:\<PASSWORD\>@\<IP-TO-YOUR-QT-WALLET\>:9766
+
 
 
 
