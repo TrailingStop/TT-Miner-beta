@@ -2,6 +2,7 @@
 
 - Cuda 11.8 support
 - Fixed hashrate-reporting to the ZANO solo mining stratum
+- Added GhostRider/Mike algos
 
 
 
