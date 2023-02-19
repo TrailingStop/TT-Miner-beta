@@ -1,3 +1,10 @@
+# TT-Miner 2023.1.8 beta 1 Pre-release
+### New
+support for OC of older GPUs (Pascal) on HIVE
+support of core/mem offset OC
+introduction of config files to reuse settings for algos/coins depending on either: interface/model/default. Tha new package contains a sample configuration file that you can use as a base to start: SampleConfig.json
+
+
 # TT-Miner 2022.3 - beta14
 
 - Cuda 11.8 support
