@@ -1,3 +1,42 @@
+# TT-Miner 2023.2.0 beta 1
+### New
+- ZIL mining - can be combined with EPIC and a 3rd coin
+- dag swap: allows mining of ZIL + EPI and ETC with a 4GB GPU
+
+### Fixes
+- memory allocation fix for Ghostrider algo
+
+New option/format:
+While the old option format is still valid TT allows you to ‘combine’ some of the most important options to a set so that you can easily see which options belong together. You just add the options and append an identifier you like to define a set for an algo or a coin like this:
+
+To define the settings for EPIC you append a ‘E’ or ‘EP’, or ‘EPIC’ – whatever you like. It is important that you append the same pattern to all option that belongs to the EPIC settings:
+-cEPIC -PEPIC <user>@<server>:<port> -oc-coreEPIC 1455
+
+In this sample I append “EPIC” for this block. It defines the coin (-c, connection-settings -P and core overclocking -oc-core).
+
+This pattern for is available for:
+-c coin
+-a algo
+-P connection string
+-oc-core lock core clock
+-oc-mem lock memory clock
+-pc-pl power limit
+
+As in older version of TT you can also append ‘alt’ to an alternate coin to EPIC.
+
+To mine ZIL/Epic and ETC you commandline can look like this (without OC settings)
+
+TT-Miner.exe -cEM EPIC -PEM <epic-user>.<epic-worker>:<epic-password>@<epic-server>:<epic-port> -cETC ETC -PETC <etc-user>.<etc-worker>:<etc-password>@<etc-server>:<etc-port> -cZIL ZIL -PZIL <zil-user>.<zil-worker>:< zil -password>@< zil -server>:< zil -port>
+The order of the options doesn’t matter.
+[6:31 PM]
+If you use an older or smaller GPU with less memory you can mine ZIL, EPIC and ETC. For this you need less than 4GB and add the option:
+-dag-swap to the command line. I recommend to add -dag-2disk as well to reduce the time required for swapping. TT also supports -dag-2mem, but this will require a lot of host memory.
+
+If you see any issues, please do not hesitate to report bugs and problems. I’m happy to help.
+[6:34 PM]
+To use and OC options you need to run TT as administrator. So far I have not found any way to support older GPUs and also core/mem offset is not supported undert windows. For now you need to adjust the offset settings with a tool like 'MSI-Afterburner'
+
+
 # TT-Miner 2023.1.8 beta 1 Pre-release
 ### New
 - support for OC of older GPUs (Pascal) on HIVE
