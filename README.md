@@ -1,3 +1,13 @@
+# TT-Miner 2023.2.0 beta 2
+### New
+- add overclock offset for core & memory to the windows version (option -oc-coreoff[...], -oc-memoff[...] ).
+
+### Fixes
+- reenabled the config file to specify general oc settings for TT (option -conf[...]). This will give you the option to set different OC settings per GPU in a mixed rig.
+
+
+
+
 # TT-Miner 2023.2.0 beta 1
 ### New
 - ZIL mining - can be combined with EPIC and a 3rd coin
