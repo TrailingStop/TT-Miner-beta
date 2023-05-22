@@ -1,3 +1,9 @@
+# TT-Miner 2023.2.0 beta 3
+### New
+- linux/hive support
+
+
+
 # TT-Miner 2023.2.0 beta 2
 ### New
 - add overclock offset for core & memory to the windows version (option -oc-coreoff[...], -oc-memoff[...] ).
