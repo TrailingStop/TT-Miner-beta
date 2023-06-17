@@ -1,6 +1,5 @@
 # What's new in TT version 2023.2.0-beta12
 
-- new in this beta
 - new support for ZIL (ZMP shardpool.io & stratum for crazypool.org ) TCP & SSL
 - new support for Alephium (Blake3 algo)
 - new support for SHA256D
