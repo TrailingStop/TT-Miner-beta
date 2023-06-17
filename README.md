@@ -5,7 +5,7 @@
 - new support for SHA256D
 - support for 3 alternating coins/algos at the same time. You can now mine ZIL, EPIC and a 3rd coin
 - new parallel mining - not just alternating as used with ZIL & EPIC
-- related commandline option are now warped into blocks with 'selectors' you choose
+- related commandline option are now wraped into blocks with 'selectors' you choose
 - new function 'lottery' to spend a very low hashes to a solo BTC or BCH mining
 
 ## wrapping commandline option into a block
