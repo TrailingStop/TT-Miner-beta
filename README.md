@@ -1,3 +1,22 @@
+# What's new in TT version 2023.4.0-beta1
+
+- new ALGO EthashB3 - Rethereum(RTH)
+- new ALGO Sha3D - Kylacoin (KCN)
+- support for KiiroCoin (KIIRO)
+- support for integrated GPUs (iGPU/ APU) - please use commandline option -igpu
+- support for CPU mining - please use commandline option -cpu
+- improved hashrate for Sha512256D - Radiant RXD
+
+
+## using iGPU
+You can now use the integrated GPU to mine. To use it just add -igpu to your command line. This will check for a iGPU and enable it if one is found. In this version TT does not support any Algo that requires a lot of memory (Ethash, ProgPow, KawPoW, GhostRider...)
+
+## using CPU
+You can now use the CPU to mine. To use it just add -cpu to your command line. This will check for is the CPU is supported and enable it. In this version TT does not support any Algo that requires a lot of memory (Ethash, ProgPow, KawPoW, GhostRider...) - so the same limitation as for iGPU applies. Also TT uses all cores in this version for mining. This will have a bad impact on the overall performance of the system. I will fir this and use fewer cores in a later release.
+
+
+
+
 # What's new in TT version 2023.2.0-beta12
 
 - new support for ZIL (ZMP shardpool.io & stratum for crazypool.org ) TCP & SSL
