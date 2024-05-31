@@ -9,9 +9,9 @@ Linux: ./TT-Miner -l
 
 look for the CPU device that TT listed - in this case it is the id: 4:
 
-********* CPU/Core information
-CPU/Core devices:   1
-04                     GenuineIntel Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz   CPUs/Cores: 1/16
+********* CPU/Core information<br/>
+CPU/Core devices:   1<br/>
+04                     GenuineIntel Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz   CPUs/Cores: 1/16<br/>
 
 
 
