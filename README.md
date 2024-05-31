@@ -15,8 +15,8 @@ CPU/Core devices:   1<br/>
 
 
 
-the command line for kylacoin mining would then look like this:
-##TT-Miner -d 4 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
+the command line for kylacoin mining would then look like this:<br/>
+TT-Miner -d 4 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
 
 Please note that this beta is not well tested - let me know if you have any issues.
 
