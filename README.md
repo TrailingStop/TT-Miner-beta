@@ -22,7 +22,8 @@ Per default TT uses all but 2 cores to make sure the sdystem stays responsive. I
 ### TT-Miner -d 4 -t 16 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
 
 
-To run the FLEX algo you need at least a SKYLAKE CPU - or better. Unforunatley I could not run a test on hive since I do not have a CPU that is SKYLAKE class.
+To run the FLEX algo you need at least a SKYLAKE CPU - or better. Unforunatley I could not run a test on hive since I do not have a CPU that is SKYLAKE class. AMD is also not tested. I got already an information that home ryzen5 works.
+
 
 
 Please note that this beta is not well tested - let me know if you have any issues.
