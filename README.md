@@ -18,7 +18,15 @@ CPU/Core devices:   1<br/>
 the command line for kylacoin mining would then look like this:<br/>
 ### TT-Miner -d 4 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
 
+Per default TT uses all but 2 cores to make sure the sdystem stays responsive. If you wish to add more cores you can use the -t commandline option. If you want to use 16 core please this command line:
+### TT-Miner -d 4 -t 16 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
+
+
+To run the FLEX algo you need at least a SKYLAKE CPU - or better. Unforunatley I could not run a test on hive since I do not have a CPU that is SKYLAKE class.
+
+
 Please note that this beta is not well tested - let me know if you have any issues.
+
 
 
 
