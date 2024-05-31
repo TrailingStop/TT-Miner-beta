@@ -10,8 +10,11 @@ Linux: ./TT-Miner -l
 look for the CPU device that TT listed - in this case it is the id: 4:
 
 ********* CPU/Core information
+
        CPU/Core devices:   1
+       
 #04                     GenuineIntel Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz   CPUs/Cores: 1/16
+
 
 the command line for kylacoin mining would then look like this:
 ##TT-Miner -d 4 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
