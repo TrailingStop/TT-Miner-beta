@@ -1,3 +1,26 @@
+# What's new in TT version 2024.2.1 Beta1
+
+- new algo: FLEX
+- minor bugfixes
+
+complete beta release notes will follow soon. Since FLEX is a CPU only algo you need to know the ID of the CPU in your system. please run TT with the 'list' option first to find out which ID you CPU got:
+Windows: TT-Miner -l
+Linux: ./TT-Miner -l
+
+look for the CPU device that TT listed - in this case it is the id: 4:
+
+********* CPU/Core information
+       CPU/Core devices:   1
+#04                     GenuineIntel Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz   CPUs/Cores: 1/16
+
+the command line for kylacoin mining would then look like this:
+##TT-Miner -d 4 -a FLEX -P ssl:\/\/KYLA-Wallet.WORKER:PASSWORD@eu.mpool.live:6486
+
+Please note that this beta is not well tested - let me know if you have any issues.
+
+
+
+
 # What's new in TT version 2023.4.0-beta1
 
 - new ALGO EthashB3 - Rethereum(RTH)
