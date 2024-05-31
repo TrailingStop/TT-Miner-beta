@@ -1,4 +1,4 @@
-# What's new in TT version 2024.2.1 Beta1
+# What's new in TT version 2024.2.1 Beta2
 
 - new algo: FLEX
 - minor bugfixes
