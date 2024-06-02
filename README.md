@@ -1,3 +1,9 @@
+# What's new in TT version 2024.2.1 Beta 4
+
+- fixed a deadlock bug on some system - only CPU mining affected with certain CPUs
+- added number of used threads into the status line for CPU mining
+
+
 # What's new in TT version 2024.2.1 Beta 3
 
 - fixed bug in Ctrl-C handling
