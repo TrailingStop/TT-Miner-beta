@@ -1,3 +1,15 @@
+# What's new in TT version 2024.2.1 Beta 3
+
+- fixed bug in Ctrl-C handling
+- auto detect CPU device for FLEX algo
+- fixed bug in ProgPoW algo
+- fixed time display
+- improved performance for GHOSTRIDERE algo
+- support of GPU & CPU mining of GHOSTRIDER at the same time
+
+
+
+
 # What's new in TT version 2024.2.1 Beta2
 
 - new algo: FLEX
