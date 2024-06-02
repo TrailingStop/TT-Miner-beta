@@ -1,7 +1,7 @@
 # What's new in TT version 2024.2.1 Beta 3
 
 - fixed bug in Ctrl-C handling
-- auto detect CPU device for FLEX algo
+- auto detect CPU device for FLEX algo (no need to add -d option)
 - fixed bug in ProgPoW algo
 - fixed time display
 - improved performance for GHOSTRIDERE algo
