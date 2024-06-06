@@ -1,3 +1,12 @@
+# What's new in TT version 2024.2.1 Beta 5
+
+- CPU only algos reserved GPU context
+- improved GHOSTRIDER & FLEX algo
+- added sample batch/script files for Kylacoin @ vipor and mining4people
+
+
+
+
 # What's new in TT version 2024.2.1 Beta 4
 
 - fixed a deadlock bug on some system - only CPU mining affected with certain CPUs
