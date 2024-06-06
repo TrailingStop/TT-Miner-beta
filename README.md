@@ -3,7 +3,7 @@
 - CPU only algos reserved GPU context
 - improved GHOSTRIDER & FLEX algo
 - added sample batch/script files for Kylacoin @ vipor and mining4people
-
+- change default thread-count for cpu mining to (max-threads - 4). On some systems other setting may give better results, so please try different thread-count settings with -t \<number-of-threads\> for CPU algos.
 
 
 
