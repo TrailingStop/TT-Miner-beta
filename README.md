@@ -1,4 +1,4 @@
-# What's new in TT version 2024.2.1 Beta 5
+# What's new in TT version 2024.2.1 Beta 5-2 (extended testperiod)
 
 - CPU only algos reserved GPU context
 - improved GHOSTRIDER & FLEX algo
