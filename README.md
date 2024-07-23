@@ -1,3 +1,15 @@
+# What's new in TT version 2024.3.3 Beta 4
+
+- I tried to improve the hash rate of the CPU algos:
+   -  GhostRider/Flex
+   - SpectreX
+   - Xelis
+I see some improvements on my intel i9, but I'm not sure of there is anything notable on other models or even on AMD chips. Please let me know if you have some results.
+
+- FIX: fixes a bug in the stratum protocol that causes rejected shares on Firo and other ProgPow coins.
+
+
+
 # What's new in TT version 2024.2.1 Beta 5-2 (extended testperiod)
 
 - CPU only algos reserved GPU context
