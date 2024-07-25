@@ -1,3 +1,9 @@
+# What's new in TT version 2024.3.3 Beta 5
+
+- FIX: removed dependencies to 3rd party shared libraries in the cpu algos
+- MODIFICATION: modified the windows batch files and added a \"cd\" command before the miner call
+ 
+
 # What's new in TT version 2024.3.3 Beta 4
 
 - I tried to improve the hash rate of the CPU algos:
